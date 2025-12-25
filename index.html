@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HappySoul - Веломагазин</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="index.html">HappySoul</a>
+                </div>
+                <nav class="nav">
+                    <a href="index.html" class="nav-link active">Главная</a>
+                    <a href="catalog.html" class="nav-link">Каталог</a>
+                    <a href="about.html" class="nav-link">О нас</a>
+                    <a href="contact.html" class="nav-link">Контакты</a>
+                </nav>
+                <div class="header-actions">
+                    <button class="icon-btn">🔍</button>
+                    <button class="icon-btn">🛒 <span class="badge">3</span></button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Найди свой идеальный велосипед</h1>
+                    <p>Широкий выбор велосипедов для города, спорта и приключений. Качество и надежность от проверенных брендов.</p>
+                    <div class="hero-buttons">
+                        <a href="catalog.html" class="btn btn-primary">Смотреть каталог →</a>
+                        <a href="about.html" class="btn btn-secondary">Узнать больше</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories -->
+    <section class="categories">
+        <div class="container">
+            <h2 class="section-title">Категории велосипедов</h2>
+            <div class="categories-grid">
+                <div class="category-card">
+                    <div class="category-icon">🚴</div>
+                    <h3>Городские</h3>
+                    <p>Комфорт для ежедневных поездок</p>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">⛰️</div>
+                    <h3>Горные</h3>
+                    <p>Для экстремальных приключений</p>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">⚡</div>
+                    <h3>Электровелосипеды</h3>
+                    <p>Современные технологии</p>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">🌲</div>
+                    <h3>Туристические</h3>
+                    <p>Для дальних путешествий</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products -->
+    <section class="products">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Популярные модели</h2>
+                <p class="section-subtitle">Лучшие предложения этого месяца</p>
+            </div>
+            <div class="products-grid">
+                <!-- Product 1 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1604677657548-4ced0c4f40c6?w=400" alt="Горный велосипед">
+                        <span class="product-badge">Горный</span>
+                        <span class="product-discount">-23%</span>
+                        <div class="product-price-tag">
+                            <div class="old-price">59 990 ₽</div>
+                            <div class="price">45 990 ₽</div>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Горный велосипед Pro X1</h3>
+                        <div class="product-rating">
+                            <span class="stars">⭐⭐⭐⭐⭐</span>
+                            <span class="rating-text">(5.0)</span>
+                        </div>
+                        <div class="product-footer">
+                            <div class="product-price-info">
+                                <div class="price-label">Цена:</div>
+                                <div class="old-price">59 990 ₽</div>
+                                <div class="price">45 990 ₽</div>
+                            </div>
+                            <button class="btn-cart">🛒</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1684248079343-1e6af2a3d1bf?w=400" alt="Шоссейный">
+                        <span class="product-badge">Шоссейный</span>
+                        <div class="product-price-tag">
+                            <div class="price">52 990 ₽</div>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Шоссейный RoadMaster</h3>
+                        <div class="product-rating">
+                            <span class="stars">⭐⭐⭐⭐⭐</span>
+                            <span class="rating-text">(5.0)</span>
+                        </div>
+                        <div class="product-footer">
+                            <div class="product-price-info">
+                                <div class="price-label">Цена:</div>
+                                <div class="price">52 990 ₽</div>
+                            </div>
+                            <button class="btn-cart">🛒</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1625656006822-0f81e8380331?w=400" alt="Городской">
+                        <span class="product-badge">Городской</span>
+                        <span class="product-discount">-14%</span>
+                        <div class="product-price-tag">
+                            <div class="old-price">34 990 ₽</div>
+                            <div class="price">29 990 ₽</div>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Городской CityComfort</h3>
+                        <div class="product-rating">
+                            <span class="stars">⭐⭐⭐⭐</span>
+                            <span class="rating-text">(4.0)</span>
+                        </div>
+                        <div class="product-footer">
+                            <div class="product-price-info">
+                                <div class="price-label">Цена:</div>
+                                <div class="old-price">34 990 ₽</div>
+                                <div class="price">29 990 ₽</div>
+                            </div>
+                            <button class="btn-cart">🛒</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1692668696893-d8e5fb0fadad?w=400" alt="Электро">
+                        <span class="product-badge">Электро</span>
+                        <span class="product-discount">-18%</span>
+                        <div class="product-price-tag">
+                            <div class="old-price">109 990 ₽</div>
+                            <div class="price">89 990 ₽</div>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Электровелосипед E-Bike Max</h3>
+                        <div class="product-rating">
+                            <span class="stars">⭐⭐⭐⭐⭐</span>
+                            <span class="rating-text">(5.0)</span>
+                        </div>
+                        <div class="product-footer">
+                            <div class="product-price-info">
+                                <div class="price-label">Цена:</div>
+                                <div class="old-price">109 990 ₽</div>
+                                <div class="price">89 990 ₽</div>
+                            </div>
+                            <button class="btn-cart">🛒</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center" style="margin-top: 2rem;">
+                <a href="catalog.html" class="btn btn-primary">Смотреть весь каталог →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section class="features">
+        <div class="container">
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">✓</div>
+                    <h3>Гарантия качества</h3>
+                    <p>Все велосипеды с официальной гарантией производителя</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🚚</div>
+                    <h3>Быстрая доставка</h3>
+                    <p>Доставим ваш велосипед в течение 1-3 дней</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔧</div>
+                    <h3>Сервисное обслуживание</h3>
+                    <p>Профессиональное обслуживание и ремонт</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>HappySoul</h3>
+                    <p>Ваш надежный партнер в мире велосипедов. Качественные велосипеды и аксессуары с 2010 года.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Быстрые ссылки</h4>
+                    <ul>
+                        <li><a href="about.html">О нас</a></li>
+                        <li><a href="catalog.html">Каталог</a></li>
+                        <li><a href="#">Доставка</a></li>
+                        <li><a href="#">Гарантия</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Контакты</h4>
+                    <ul>
+                        <li>📞 +7 (495) 123-45-67</li>
+                        <li>✉️ info@happysoul.ru</li>
+                        <li>📍 Москва, ул. Примерная, 123</li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Мы в соцсетях</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-link">FB</a>
+                        <a href="#" class="social-link">IG</a>
+                        <a href="#" class="social-link">TW</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 HappySoul. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

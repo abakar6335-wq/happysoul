@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>О нас - HappySoul</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .about-section {
+            padding: 64px 0;
+        }
+        .about-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .about-content h1 {
+            font-size: 36px;
+            margin-bottom: 32px;
+        }
+        .about-content h2 {
+            font-size: 24px;
+            margin: 32px 0 16px;
+        }
+        .about-content p {
+            font-size: 18px;
+            color: #4b5563;
+            line-height: 1.8;
+            margin-bottom: 24px;
+        }
+        .about-content ul {
+            list-style: disc;
+            margin-left: 24px;
+            margin-bottom: 24px;
+        }
+        .about-content li {
+            font-size: 18px;
+            color: #4b5563;
+            line-height: 1.8;
+            margin-bottom: 12px;
+        }
+        .values-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 24px;
+            margin-top: 32px;
+        }
+        .value-card {
+            background: #dbeafe;
+            padding: 32px;
+            border-radius: 12px;
+        }
+        .value-card h3 {
+            font-size: 20px;
+            margin-bottom: 12px;
+        }
+        .value-card p {
+            font-size: 16px;
+            color: #4b5563;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="index.html">HappySoul</a>
+                </div>
+                <nav class="nav">
+                    <a href="index.html" class="nav-link">Главная</a>
+                    <a href="catalog.html" class="nav-link">Каталог</a>
+                    <a href="about.html" class="nav-link active">О нас</a>
+                    <a href="contact.html" class="nav-link">Контакты</a>
+                </nav>
+                <div class="header-actions">
+                    <button class="icon-btn">🔍</button>
+                    <button class="icon-btn">🛒 <span class="badge">3</span></button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <h1>О нас</h1>
+                
+                <p>
+                    HappySoul - это ваш надежный партнер в мире велосипедов с 2010 года. Мы предлагаем широкий ассортимент качественных велосипедов для любых целей и предпочтений.
+                </p>
+
+                <h2>Наша миссия</h2>
+                <p>
+                    Мы стремимся сделать велосипедный спорт доступным каждому, предлагая высококачественную продукцию по разумным ценам. Наша команда экспертов всегда готова помочь вам выбрать идеальный велосипед.
+                </p>
+
+                <h2>Почему выбирают нас</h2>
+                <ul>
+                    <li>Более 15 лет опыта на рынке</li>
+                    <li>Только проверенные бренды и производители</li>
+                    <li>Профессиональная консультация специалистов</li>
+                    <li>Гарантия на всю продукцию</li>
+                    <li>Сервисное обслуживание и ремонт</li>
+                    <li>Быстрая доставка по всей России</li>
+                </ul>
+
+                <h2>Наши ценности</h2>
+                <div class="values-grid">
+                    <div class="value-card">
+                        <h3>Качество</h3>
+                        <p>Мы работаем только с проверенными поставщиками и гарантируем качество каждого велосипеда.</p>
+                    </div>
+                    <div class="value-card">
+                        <h3>Надежность</h3>
+                        <p>Наши клиенты доверяют нам уже более 15 лет, и мы дорожим этим доверием.</p>
+                    </div>
+                    <div class="value-card">
+                        <h3>Сервис</h3>
+                        <p>Мы всегда готовы помочь - от выбора велосипеда до его обслуживания.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>HappySoul</h3>
+                    <p>Ваш надежный партнер в мире велосипедов. Качественные велосипеды и аксессуары с 2010 года.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Быстрые ссылки</h4>
+                    <ul>
+                        <li><a href="about.html">О нас</a></li>
+                        <li><a href="catalog.html">Каталог</a></li>
+                        <li><a href="#">Доставка</a></li>
+                        <li><a href="#">Гарантия</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Контакты</h4>
+                    <ul>
+                        <li>📞 +7 (495) 123-45-67</li>
+                        <li>✉️ info@happysoul.ru</li>
+                        <li>📍 Москва, ул. Примерная, 123</li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Мы в соцсетях</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-link">FB</a>
+                        <a href="#" class="social-link">IG</a>
+                        <a href="#" class="social-link">TW</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 HappySoul. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
